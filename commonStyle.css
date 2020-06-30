@@ -610,14 +610,10 @@ tbody a:hover,
 /* 页码 */
 
 #page {
-    display: inline-block;
-    min-width: 710px;
-    height: 40px;
-    line-height: 40px;
-    padding: 5px 10px !important;
-    margin: 50px 0px 50px 80px !important;
-    margin-left: 210px!important;
+    display: block;
     text-align: center;
+    position: relative;
+    top: 50px;
 }
 
 #page a,
